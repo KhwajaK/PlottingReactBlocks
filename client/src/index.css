@@ -1,0 +1,63 @@
+*{
+  margin: 10 auto;
+  padding: 10;
+}
+.container{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  outline: solid;
+  background: #dddddd;
+  height: 410px;
+  width: auto;
+  padding-top: 5px;
+}
+
+.header {
+  height: 75px;
+  width: auto;
+  margin: 5px;
+  background:#6aa84f;
+  outline: solid;
+}
+
+.navigation{
+  outline: solid;
+  background: #6fa8dc;
+  margin: 5px;
+  height: 230px;
+  flex-grow: 1
+}
+
+.main {
+  outline: solid;
+  background: #e06666;
+  margin: 5px;
+  width: auto;
+  height: 300px;
+  flex-grow: 3
+}
+
+.subcontents{
+  outline: solid;
+  background: #ffd966;
+  margin: 5px;
+  flex-grow:1;
+  height: 200px;
+}
+
+.advertisement{
+  outline: solid;
+  background: #b4a7d6;
+  margin: 5px;
+  width: auto;
+  height: 75px;
+}
+
+.navdiv{
+  display: flex;
+}
+
+.subdiv{
+  display: flex;
+}
+
